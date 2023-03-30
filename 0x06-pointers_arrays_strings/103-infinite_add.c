@@ -68,9 +68,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		if (digits >= (size_r - 1))
 		return (0);
 		*(r + digits) = (temp_tot % 10) + '0';
-			digits++;
+		digits++;
 		j--;
-		i--;      
+		i--;
 	}
 	if (digits == size_r)
 		return (0);
